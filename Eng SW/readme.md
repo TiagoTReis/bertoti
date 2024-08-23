@@ -6,7 +6,7 @@ Basicamente existem 3 diferenças criticas entre programação e engenharia de s
 - escala
 - compensações
 
-Na engenharia de software a maior preocupação é com o tempo para eventuais mudanças. A maior preocupação passa a é com a escala e a eficiência. Os engenheiros de software são os profissionais preparados a tomar as decisões mais complexas com risco alto nem sempre dentro do tempo ou obtendo crescimento.
+Na engenharia de software o engenheiro precisa ter uma visão do projeto total afim de otimizar o tempo para eventuais mudanças, a escala e os trade -offs pelo caminho. Os engenheiros de software são os profissionais preparados a tomar as decisões mais complexas com risco alto nem sempre dentro do tempo ou obtendo exito.
 
 2 - Trade - Offs
 
