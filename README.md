@@ -37,6 +37,19 @@ Este projeto implementa um bot para o Telegram que utiliza a biblioteca [Tessera
 4. **Gemma Configurado**:
    - Baixe o **Gemma** e configure no seu ambiente de desenvolvimento.
    - Certifique-se de que o Gemma esteja sincronizado com as dependências do projeto.
+  
+## ▶️ **Como Executar**
+
+#### 1. **Clone o repositório**
+
+#### 2. **Compile o projeto: Use sua IDE favorita (como IntelliJ ou Eclipse) ou compile via linha de comando:**
+
+#### 3. **Execute o bot**
+
+#### 4. **Teste no Telegram:**
+
+#### 5. **Envie uma imagem para o bot e ele retornará o texto extraído.**
+    
 
 ## 📦 Estrutura do Projeto
 
@@ -47,14 +60,5 @@ src/
 └── resources/
     └── tessdata/         # Diretório onde ficam os dados de linguagem do Tesseract
 
-## Como Executar
 
-- Clone o repositório:
 
-- Compile o projeto: Use sua IDE favorita (como IntelliJ ou Eclipse) ou compile via linha de comando:
-
-- Execute o bot:
-
-- Teste no Telegram:
-
-- Envie uma imagem para o bot e ele retornará o texto extraído.
