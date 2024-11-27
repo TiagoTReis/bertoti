@@ -119,3 +119,7 @@ class BibliotecaTeste {
         assertNull(encontrado);
     }
 }
+
+**4- DIAGRAMA UML**
+
+[diagrama UML](https://github.com/TiagoTReis/bertoti/blob/main/Eng%20SW/BERTOTI.png)
