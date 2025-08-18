@@ -31,9 +31,10 @@ No primeiro semestre de 2025, participei do desenvolvimento de um sistema de con
 - **Solução Desenvolvida**: Criamos uma aplicação web capaz de consumir dados de um banco de dados externo, exibindo as informações de entrada e saída dos colaboradores. O sistema permite aplicar diversos filtros, visualizar gráficos e gerar relatórios personalizados, facilitando a análise e a tomada de decisões pela gestão da empresa.
 
 
-#### Repositório do projeto
+#### Repositório do Projeto
 
-TODO
+[Acesse o repositório no GitHub](https://github.com/SQLutions-FATEC/API-3-Semestre)
+
 
 ## Tecnologias Utilizadas
 
