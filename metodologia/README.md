@@ -60,16 +60,14 @@ No primeiro semestre de 2025, participei do desenvolvimento de um sistema de con
 
 - **PostgreSQL**: Conhecimento básico em modelagem de bancos de dados relacionais, com experiência na criação de tabelas, consultas SQL e entendimento dos fundamentos de integridade e desempenho em ambientes de desenvolvimento.
 
-- **Scrum Master**: Atuação como Scrum Master em projeto acadêmico, facilitando cerimônias ágeis (como daily meetings, reviews e retrospectivas), promovendo a comunicação entre os membros do time e auxiliando na remoção de impedimentos para garantir o andamento contínuo do projeto.
+- **Scrum Master**: Atuei como Scrum Master em projeto acadêmico, facilitando cerimônias ágeis (como daily meetings, reviews e retrospectives), promovendo a comunicação entre os membros do time e auxiliando na remoção de impedimentos para garantir o andamento contínuo do projeto.
 
 ## Soft Skills
 
-- **Organização e gerenciamento de tempo**: Durante o desenvolvimento do projeto, mantive um cronograma pessoal com metas semanais para garantir a entrega das minhas tarefas dentro do prazo. Isso foi essencial para evitar atrasos, especialmente em períodos com múltiplas entregas acadêmicas simultâneas.
+- **Organização e gerenciamento de tempo**: Como Scrum Master do projeto, eu era responsável por acompanhar e gerenciar o desenvolvimento da equipe. Para isso, utilizávamos o JIRA como ferramenta central de organização. Eu mantinha um cronograma com metas semanais e monitorava o andamento das tarefas por meio do gráfico de burndown, o que ajudava a visualizar o progresso do time e a identificar possíveis gargalos. Essa gestão foi essencial para garantir entregas dentro do prazo, mesmo durante períodos com múltiplas demandas acadêmicas.
 
-- **Liderança**: Assumi responsabilidades de liderança em momentos-chave do projeto, organizando reuniões rápidas para replanejamento de tarefas e ajudando colegas a resolver bloqueios técnicos, mesmo não sendo o líder oficial do time.
+- **Empatia**: Durante o projeto, percebi que alguns membros da equipe estavam com dificuldade para avançar em determinadas tarefas. Para ajudar, propus sessões de *peer programming*, o que nos permitiu resolver bloqueios técnicos de forma colaborativa e mais rápida. Também organizei reuniões rápidas para replanejar tarefas e garantir o alinhamento com os objetivos da sprint — essas reuniões aconteceram tanto presencialmente, no ambiente da faculdade, quanto remotamente, por meio do Discord, de acordo com a disponibilidade da equipe.
 
-- **Empatia e colaboração**: Mantive uma postura aberta para escutar ideias de todos os colegas, incentivando um ambiente de respeito e colaboração. Evitei julgamentos e promovi discussões saudáveis mesmo em situações de desacordo técnico.
 
-- **Proatividade**: Me antecipei a possíveis problemas técnicos e de organização dentro do time, propondo melhorias no fluxo de trabalho e na documentação do projeto sem precisar ser solicitado.
-
+- **Colaboração**: Mantive uma postura aberta para escutar as ideias de todos, incentivando um ambiente de respeito e diálogo constante. Em momentos de desacordo técnico, ajudei a transformar divergências em aprendizados coletivos, promovendo decisões em conjunto e valorizando diferentes perspectivas. Quando o cliente não respondia no Slack, busquei orientação com o professor M2, que me aconselhou a envolver a professora P2 para destravar a equipe, garantindo que o fluxo do projeto não fosse prejudicado.
 
