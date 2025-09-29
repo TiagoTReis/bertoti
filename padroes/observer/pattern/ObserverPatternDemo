@@ -1,0 +1,22 @@
+package observer.pattern;
+
+public class ObserverPatternDemo {
+    public static void main(String[] args) {
+        NewsPublisher publisher = new NewsPublisher();
+
+        Observer mobileApp = new NewsDisplay("Mobile App");
+        Observer website = new NewsDisplay("Website");
+        Observer tvChannel = new NewsDisplay("TV Channel");
+
+        publisher.registerObserver(mobileApp);
+        publisher.registerObserver(website);
+        publisher.registerObserver(tvChannel);
+
+        publisher.publishNews("Novo framework Java lançado!", "Tecnologia");
+        publisher.publishNews("Eleições se aproximam com debates acalorados", "Política");
+
+        publisher.removeObserver(tvChannel);
+
+        publisher.publishNews("Time local vence campeonato regional!", "Esportes");
+    }
+}
