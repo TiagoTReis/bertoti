@@ -1,0 +1,17 @@
+package strategy.pattern;
+
+public class DeliveryService {
+    private DeliveryStrategy strategy;
+
+    public void setStrategy(DeliveryStrategy strategy) {
+        this.strategy = strategy;
+    }
+
+    public void deliverPackage(String packageName) {
+        if (strategy == null) {
+            System.out.println("No delivery strategy selected!");
+            return;
+        }
+        strategy.deliver(packageName);
+    }
+}
