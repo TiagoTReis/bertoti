@@ -1,0 +1,14 @@
+package composite.pattern;
+
+public class Book implements LibraryItem {
+    private String title;
+
+    public Book(String title) {
+        this.title = title;
+    }
+
+    @Override
+    public void display() {
+        System.out.println("Book: " + title);
+    }
+}
