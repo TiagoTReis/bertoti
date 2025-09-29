@@ -1,0 +1,18 @@
+package composite.pattern;
+
+public class LibraryPatternDemo {
+    public static void main(String[] args) {
+        LibraryItem book1 = new Book("Clean Code");
+        LibraryItem book2 = new Book("Design Patterns");
+
+        LibraryItem subShelf = new Shelf();
+        ((Shelf) subShelf).addItem(book1);
+
+        LibraryItem mainShelf = new Shelf();
+        ((Shelf) mainShelf).addItem(book2);
+        ((Shelf) mainShelf).addItem(subShelf);
+
+        mainShelf.display();
+    }
+}
+
