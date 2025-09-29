@@ -1,0 +1,16 @@
+package observer.pattern;
+
+public class NewsDisplay implements Observer {
+    private String name;
+
+    public NewsDisplay(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public void update(String headline, String category) {
+        System.out.println(name + " recebeu nova notícia:");
+        System.out.println("Categoria: " + category);
+        System.out.println("Título: " + headline + "\n");
+    }
+}
