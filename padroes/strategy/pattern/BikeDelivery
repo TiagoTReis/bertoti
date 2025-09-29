@@ -1,0 +1,8 @@
+package strategy.pattern;
+
+public class BikeDelivery implements DeliveryStrategy {
+    @Override
+    public void deliver(String packageName) {
+        System.out.println("Delivering package \"" + packageName + "\" by bike.");
+    }
+}
