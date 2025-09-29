@@ -1,0 +1,6 @@
+package strategy.pattern;
+
+public interface DeliveryStrategy {
+    void deliver(String packageName);
+}
+
