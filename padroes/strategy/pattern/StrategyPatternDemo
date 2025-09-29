@@ -1,0 +1,13 @@
+package strategy.pattern;
+
+public class StrategyPatternDemo {
+    public static void main(String[] args) {
+        DeliveryService service = new DeliveryService();
+
+        service.setStrategy(new BikeDelivery());
+        service.deliverPackage("Small Box");
+
+        service.setStrategy(new TruckDelivery());
+        service.deliverPackage("Large Furniture");
+    }
+}
