@@ -1,0 +1,37 @@
+package observer.antipattern;
+
+public class NewsPublisherCoupled {
+    private NewsDisplayCoupled mobileAppDisplay;
+    private NewsDisplayCoupled websiteDisplay;
+    private NewsDisplayCoupled tvChannelDisplay;
+
+    public void setDisplays(NewsDisplayCoupled mobile, NewsDisplayCoupled web, NewsDisplayCoupled tv) {
+        this.mobileAppDisplay = mobile;
+        this.websiteDisplay = web;
+        this.tvChannelDisplay = tv;
+    }
+
+    public void publishNews(String headline, String category) {
+        if (mobileAppDisplay != null) {
+            mobileAppDisplay.showNews(headline, category);
+        }
+
+        if (websiteDisplay != null) {
+            websiteDisplay.showNews(headline, category);
+        }
+
+        if (tvChannelDisplay != null) {
+            tvChannelDisplay.showNews(headline, category);
+        }
+    }
+
+    public void removeDisplay(String displayName) {
+        if (mobileAppDisplay != null && mobileAppDisplay.getDisplayName().equals(displayName)) {
+            mobileAppDisplay = null;
+        } else if (websiteDisplay != null && websiteDisplay.getDisplayName().equals(displayName)) {
+            websiteDisplay = null;
+        } else if (tvChannelDisplay != null && tvChannelDisplay.getDisplayName().equals(displayName)) {
+            tvChannelDisplay = null;
+        }
+    }
+}
