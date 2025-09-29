@@ -1,0 +1,9 @@
+package strategy.antipattern;
+
+public class StrategyAntiPatternDemo {
+    public static void main(String[] args) {
+        DeliveryService service = new DeliveryService();
+        service.deliver("Bike", "Small Box");
+        service.deliver("Truck", "Large Furniture");
+    }
+}
