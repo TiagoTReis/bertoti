@@ -1,0 +1,20 @@
+package observer.antipattern;
+
+public class NewsDisplayCoupled {
+    private String name;
+
+    public NewsDisplayCoupled(String name) {
+        this.name = name;
+    }
+
+    public String getDisplayName() {
+        return name;
+    }
+
+    public void showNews(String headline, String category) {
+        System.out.println(name + " recebeu nova notícia:");
+        System.out.println("Categoria: " + category);
+        System.out.println("Título: " + headline + "\n");
+    }
+}
+
