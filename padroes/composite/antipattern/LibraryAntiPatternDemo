@@ -1,0 +1,19 @@
+package composite.antipattern;
+
+public class LibraryAntiPatternDemo {
+    public static void main(String[] args) {
+        Book book1 = new Book("Clean Code");
+        Book book2 = new Book("Design Patterns");
+
+        Shelf subShelf = new Shelf();
+        subShelf.addItem(book1);
+
+        Shelf mainShelf = new Shelf();
+        mainShelf.addItem(book2);
+        mainShelf.addItem(subShelf);
+        mainShelf.addItem(12345); // elemento inválido
+
+        mainShelf.displayItems();
+    }
+}
+
