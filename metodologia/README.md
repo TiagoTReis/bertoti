@@ -52,7 +52,14 @@ No primeiro semestre de 2025, participei do desenvolvimento de um sistema de con
 
 ## Contribuições Pessoais
 
-*Apresente suas contribuições no projeto. Foque nas funcionalidades em que você mais atuou. Descreva sua atuação em detalhes, especificando que tecnologias você utilizou.*
+<details>
+  <summary> Modelagem inicial do banco de dados </summary>
+<br>
+Em conjunto com os demais membros do grupo, definimos a estrutura inicial do banco de dados, incluindo suas tabelas e relacionamentos. O foco foi criar um esquema que atendesse aos fluxos prioritários mapeados, com uma abordagem de visibilidade limitada a longo prazo. Para garantir a coerência e facilitar as alterações, elaboramos um dump do banco que é inicializado junto ao Docker, minimizando assim os conflitos decorrentes de futuras modificações em relacionamentos, tabelas ou na adição de novos componentes.
+
+
+
+</details>
 
 ## Hard Skills
 
