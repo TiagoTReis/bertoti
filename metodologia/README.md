@@ -53,12 +53,28 @@ No primeiro semestre de 2025, participei do desenvolvimento de um sistema de con
 ## Contribuições Pessoais
 
 <details>
-  <summary> Modelagem inicial do banco de dados </summary>
+  <summary>Modelagem inicial do banco de dados</summary>
 <br>
 Em conjunto com os demais membros do grupo, definimos a estrutura inicial do banco de dados, incluindo suas tabelas e relacionamentos. O foco foi criar um esquema que atendesse aos fluxos prioritários mapeados, com uma abordagem de visibilidade limitada a longo prazo. Para garantir a coerência e facilitar as alterações, elaboramos um dump do banco que é inicializado junto ao Docker, minimizando assim os conflitos decorrentes de futuras modificações em relacionamentos, tabelas ou na adição de novos componentes.
 
 
+![Diagrama de Modelagem](fotos/modelagem.png)
 
+</details>
+
+<details>
+ <summary>Desenvolvimento back-end utilizando SpringBoot</summary>
+<br>
+  Minha contribuição durante o desenvolvimento incluiu a refatoração pontual do código,meu objetivo era visar a otimização e a manutenibilidade. Intensifiquei esse trabalho nas semanas finais, próximo à entrega, focando nos seguintes pontos de melhoria
+  <br>
+
+  <details>
+    <summary>Estruturação de dados (DTO)</summary>
+    <br>
+    Definição e implementação de DTOs (Data Transfer Objects) para organizar e otimizar a transferência de dados entre as camadas da aplicação.
+    
+  </details>
+  
 </details>
 
 ## Hard Skills
