@@ -66,16 +66,20 @@ Em conjunto com os demais membros do grupo, definimos a estrutura inicial do ban
  <summary>Desenvolvimento back-end utilizando SpringBoot</summary>
 <br>
   Minha contribuição durante o desenvolvimento incluiu a refatoração pontual do código,meu objetivo era visar a otimização e a manutenibilidade. Intensifiquei esse trabalho nas semanas finais, próximo à entrega, focando nos seguintes pontos de melhoria
-  <br>
+<br>
 
   <details>
     <summary>Estruturação de dados (DTO)</summary>
-
+<br>
 Definição e implementação de DTOs (Data Transfer Objects) para organizar e otimizar a transferência de dados entre as camadas da aplicação.
 
-![Refatoracao de DTO](fotos/Refatoração de DTO.png)
+![Refatoracao de DTO](fotos/refatoracao-de-dto.png)
 
   </details>
+
+  <summary>Padronização de Codigo</summary>
+  <br>
+  Estabelecimento de padrões de código para garantir consistência, legibilidade e manutenção eficiente do projeto.
   
 </details>
 
