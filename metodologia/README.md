@@ -16,7 +16,8 @@ Mais recentemente, decidi fazer uma transição de carreira para a área de tecn
 
 ## Meus Principais Conhecimentos
 
-TODO
+Desenvolvimento Web Back-end: Conhecimento básico, com experiência prática em projetos utilizando principalmente Spring Boot..
+Banco de Dados: Conhecimento em banco relacionais, principalmente postgres e MySQL.
 
 ## Meus Projetos
 
@@ -89,8 +90,8 @@ Estabelecimento de padrões de código para garantir consistência, legibilidade
   
   Criação de endpoints para ignorar a paginação e trazer todos os dados do banco.
 
-  
-  
+  ![endpoint](fotos/endpoint.png)
+  </details>
 
 
 </details>
