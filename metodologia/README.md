@@ -63,24 +63,36 @@ Em conjunto com os demais membros do grupo, definimos a estrutura inicial do ban
 </details>
 
 <details>
- <summary>Desenvolvimento back-end utilizando SpringBoot</summary>
-<br>
-  Minha contribuição durante o desenvolvimento incluiu a refatoração pontual do código,meu objetivo era visar a otimização e a manutenibilidade. Intensifiquei esse trabalho nas semanas finais, próximo à entrega, focando nos seguintes pontos de melhoria
-<br>
+  <summary>Desenvolvimento back-end utilizando SpringBoot</summary>
+
+Minha contribuição durante o desenvolvimento incluiu a refatoração pontual do código, meu objetivo era visar a otimização e a manutenibilidade. Intensifiquei esse trabalho nas semanas finais, próximo à entrega, focando nos seguintes pontos de melhoria:
 
   <details>
     <summary>Estruturação de dados (DTO)</summary>
-<br>
+
 Definição e implementação de DTOs (Data Transfer Objects) para organizar e otimizar a transferência de dados entre as camadas da aplicação.
 
 ![Refatoracao de DTO](fotos/refatoracao-de-dto.png)
 
   </details>
 
-  <summary>Padronização de Codigo</summary>
-  <br>
-  Estabelecimento de padrões de código para garantir consistência, legibilidade e manutenção eficiente do projeto.
+  <details>
+    <summary>Padronização de Código</summary>
+
+Estabelecimento de padrões de código para garantir consistência, legibilidade e manutenção eficiente do projeto.
+
+![padronizacao](fotos/padronizacao.png)
+  </details>
+
+<details>
+  <summary>Endpoint para exportações em Larga Escala </summary>
   
+  Criação de endpoints para ignorar a paginação e trazer todos os dados do banco.
+
+  
+  
+
+
 </details>
 
 ## Hard Skills
