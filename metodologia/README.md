@@ -70,9 +70,11 @@ Em conjunto com os demais membros do grupo, definimos a estrutura inicial do ban
 
   <details>
     <summary>Estruturação de dados (DTO)</summary>
-    <br>
-    Definição e implementação de DTOs (Data Transfer Objects) para organizar e otimizar a transferência de dados entre as camadas da aplicação.
-    
+
+Definição e implementação de DTOs (Data Transfer Objects) para organizar e otimizar a transferência de dados entre as camadas da aplicação.
+
+![Refatoracao de DTO](fotos/Refatoracao de DTO.png)
+
   </details>
   
 </details>
