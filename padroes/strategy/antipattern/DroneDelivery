@@ -1,0 +1,7 @@
+package strategy.antipattern;
+
+public class DroneDelivery {
+    public void deliver(String packageName) {
+        System.out.println("Delivering package \"" + packageName + "\" by drone.");
+    }
+}
