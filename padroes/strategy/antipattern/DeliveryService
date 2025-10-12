@@ -1,0 +1,19 @@
+package strategy.antipattern;
+
+public class DeliveryService {
+    private BikeDelivery bike = new BikeDelivery();
+    private TruckDelivery truck = new TruckDelivery();
+    private DroneDelivery drone = new DroneDelivery();
+
+    public void deliver(String method, String packageName) {
+        if (method.equals("Bike")) {
+            bike.deliver(packageName);
+        } else if (method.equals("Truck")) {
+            truck.deliver(packageName);
+        } else if (method.equals("Drone")) {
+            drone.deliver(packageName);
+        } else {
+            System.out.println("Invalid delivery method!");
+        }
+    }
+}
