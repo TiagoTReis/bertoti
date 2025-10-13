@@ -30,14 +30,11 @@ classDiagram
         + update(headline: String, category: String): void
     }
 
-    class ObserverPatternDemo {
-        + main(args: String[]): void
-    }
+    
 
     %% Relações do Padrão
     Subject <|.. NewsPublisher : implements
     Observer <|.. NewsDisplay : implements
 
-    ObserverPatternDemo --> NewsPublisher : usa
-    ObserverPatternDemo --> NewsDisplay : usa
+    
 ```
