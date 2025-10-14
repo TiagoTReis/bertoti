@@ -21,7 +21,7 @@ classDiagram
 
     
 
-    DeliveryService *-- DeliveryStrategy 
+    DeliveryService *-->DeliveryStrategy 
     DeliveryStrategy <|.. BikeDelivery
     DeliveryStrategy <|.. TruckDelivery
     
