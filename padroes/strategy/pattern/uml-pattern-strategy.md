@@ -19,12 +19,10 @@ classDiagram
         +deliverPackage(String packageName)
     }
 
-    class StrategyPatternDemo {
-        +main(String[] args)
-    }
+    
 
+    DeliveryService *-- DeliveryStrategy 
     DeliveryStrategy <|.. BikeDelivery
     DeliveryStrategy <|.. TruckDelivery
-    DeliveryService --> DeliveryStrategy
-    StrategyPatternDemo --> DeliveryService
+    
 ```
