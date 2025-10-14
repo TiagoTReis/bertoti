@@ -1,33 +1,24 @@
 ```mermaid
 classDiagram
-    direction LR
+    direction TB
 
-    class StrategyAntiPatternDemo {
-        +main(args: String[]): void
-    }
-
-    class DeliveryService {
-        -bike: BikeDelivery
-        -truck: TruckDelivery
-        -drone: DroneDelivery
-        +deliver(method: String, packageName: String): void
+    class Delivery {
+        +deliver(packageName: String)
     }
 
     class BikeDelivery {
-        +deliver(packageName: String): void
+        +deliver(packageName: String)
     }
 
     class TruckDelivery {
-        +deliver(packageName: String): void
+        +deliver(packageName: String)
     }
 
     class DroneDelivery {
-        +deliver(packageName: String): void
+        +deliver(packageName: String)
     }
 
-    StrategyAntiPatternDemo --> DeliveryService : usa
-    DeliveryService --> BikeDelivery : depende
-    DeliveryService --> TruckDelivery : depende
-    DeliveryService --> DroneDelivery : depende
-
+    Delivery <|-- BikeDelivery
+    Delivery <|-- TruckDelivery
+    Delivery <|-- DroneDelivery
 ```
