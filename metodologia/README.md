@@ -66,12 +66,12 @@ Em conjunto com os demais membros do grupo, definimos a estrutura inicial do ban
 <details>
   <summary>Desenvolvimento back-end utilizando SpringBoot</summary>
 
-Minha contribuição durante o desenvolvimento incluiu a refatoração pontual do código, meu objetivo era visar a otimização e a manutenibilidade. Intensifiquei esse trabalho nas semanas finais, próximo à entrega, focando nos seguintes pontos de melhoria:
+Contribuí com refatorações pontuais e implementação de DTOs para otimizar, padronizar e tornar o código mais manutenível. Atendi a solicitações do cliente criando endpoints para recuperação completa de dados, estabeleci padrões de código consistentes e priorizei eficiência, segurança e facilidade de evolução do sistema.
 
   <details>
     <summary>Estruturação de dados (DTO)</summary>
 
-Definição e implementação de DTOs (Data Transfer Objects) para organizar e otimizar a transferência de dados entre as camadas da aplicação.
+Defini e implementei DTOs (Data Transfer Objects) para padronizar a comunicação entre as camadas da aplicação. Com isso, garanti a transferência eficiente de dados, protegi entidades internas evitando exposições desnecessárias, e facilite a manutenção e evolução do sistema. Também otimizei a performance ao enviar apenas as informações necessárias, mantendo contratos claros entre front-end e back-end e permitindo alterações futuras na API sem impactos inesperados.
 
 ![Refatoracao de DTO](fotos/refatoracao-de-dto.png)
 
@@ -80,7 +80,7 @@ Definição e implementação de DTOs (Data Transfer Objects) para organizar e o
   <details>
     <summary>Padronização de Código</summary>
 
-Estabelecimento de padrões de código para garantir consistência, legibilidade e manutenção eficiente do projeto.
+Estabeleci padrões de código consistentes para toda a equipe, garantindo legibilidade, uniformidade e manutenção eficiente do projeto. Essa iniciativa facilitou a colaboração entre desenvolvedores, reduziu a ocorrência de erros, aumentou a qualidade do código e promoveu boas práticas que facilitam a evolução e escalabilidade do sistema.
 
 ![padronizacao](fotos/padronizacao.png)
   </details>
@@ -88,7 +88,7 @@ Estabelecimento de padrões de código para garantir consistência, legibilidade
 <details>
   <summary>Endpoint para exportações em Larga Escala </summary>
   
-  Criação de endpoints para ignorar a paginação e trazer todos os dados do banco.
+  Atendi a uma solicitação do cliente durante um code review, criando endpoints que permitem a recuperação completa dos dados do banco, ignorando a paginação padrão. Essa implementação facilitou cenários de exportação de relatórios, análise de grandes volumes de informações e integrações com sistemas externos, garantindo eficiência e performance sem comprometer o funcionamento do sistema.
 
   ![endpoint](fotos/endpoint.png)
   </details>
