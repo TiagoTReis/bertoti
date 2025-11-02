@@ -53,6 +53,9 @@ No primeiro semestre de 2025, participei do desenvolvimento de um sistema de con
 
 ## Contribuições Pessoais
 
+Durante o desenvolvimento do projeto, atuei principalmente na camada back-end e exerci o papel de Scrum Master, sendo responsável por coordenar as atividades da equipe e garantir a aplicação das metodologias ágeis utilizando o Jira para o acompanhamento das tarefas e sprints.
+Contribuí ativamente para a modelagem inicial do banco de dados, padronização do código e implementação de soluções voltadas à eficiência, segurança e manutenção do sistema. Busquei constantemente melhorar a qualidade técnica do projeto, participando das decisões de arquitetura e promovendo boas práticas de desenvolvimento. Entre minhas entregas, destacam-se as refatorações pontuais, a definição e implementação de DTOs, a criação de endpoints personalizados para exportações em larga escala e o estabelecimento de padrões de código consistentes, garantindo a evolução sustentável e colaborativa do sistema.
+
 <details>
   <summary>Modelagem inicial do banco de dados</summary>
 <br>
