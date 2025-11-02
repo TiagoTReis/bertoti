@@ -1,8 +1,11 @@
-public class SmartLightAntiPatternDemo {
+public class SmartLightPatternDemo {
     public static void main(String[] args) {
-        System.out.println("=== DEMONSTRAÇÃO DO ANTI-PATTERN ADAPTER ===\n");
+        System.out.println("=== DEMONSTRAÇÃO DO ADAPTER PATTERN ===\n");
 
-        SmartHomeSystem system = new SmartHomeSystem();
-        system.connectOldLampDirectly();
+        OldLamp oldLamp = new OldLamp();
+        SmartDevice lampAdapter = new OldLampAdapter(oldLamp);
+
+        SmartHomeSystem homeSystem = new SmartHomeSystem();
+        homeSystem.controlDevice(lampAdapter);
     }
 }
